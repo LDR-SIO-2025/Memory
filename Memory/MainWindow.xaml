@@ -1,0 +1,42 @@
+﻿<Window x:Class="memory.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:memory"
+        mc:Ignorable="d"
+        Title="Jeu du Memory" Height="450" Width="800">
+    <Grid>
+
+        <Label x:Name="LabelTemps" HorizontalAlignment="Left" Margin="644,97,0,0" VerticalAlignment="Top" Height="109" Width="121" Background="#FF9E1B1B" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="72"/>
+        <Button x:Name="ButtonNouvellePartie" Content="Nouvelle Partie" HorizontalAlignment="Left" Height="36" Margin="644,302,0,0" VerticalAlignment="Top" Width="121" Click="ButtonNouvellePartie_Click"/>
+        <Button x:Name="ButtonQuitter" Content="Quitter" HorizontalAlignment="Left" Height="36" Margin="644,358,0,0" VerticalAlignment="Top" Width="121" Click="ButtonQuitter_Click"/>
+        <WrapPanel x:Name="WrapPanelGrilleCartes" Margin="0,0,258,0" IsEnabled="False">
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+            <Image Height="100" Width="83" Source="/Resources/Vide.jpg" MouseDown="Image_MouseDown" />
+        </WrapPanel>
+
+    </Grid>
+</Window>
